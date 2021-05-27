@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width:1024px)" href="css/mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>covid_navigator</title>
+</head>
+<body>
+    <header class="home-head"> <!--covid19 header-->
+        <div id="home-nav"> <!--home-nav-->
+            <div class="container"><!--container-->
+                <div class="home-content"> <!--home-content-->
+                    <!--covid-logo--><div id="logo"><a href="#"><img class="image-z" src="./img/coronavirus.png" alt="coronavirus" width="25px" height="22px">Cov19Strain</a></div><!--covid-logo-->
+                   
+                    <div class="nav-links"><!--nav-links-->
+                        <ul>
+                         <div class="home"><a href="#"><img class="image-a" src="./img/home.png" alt="home"><li>Home</li></a></div>
+                           <div class="home"><a href="#"><img class="image-b" src="./img/visualization.png" alt="visualization"> <li>Grid</li></a></div>
+                           <div class="home"><a href="#"><img class="image-c" src="./img/credit-card.png" alt="credit-card"> <li>Cards</li></a></div>
+                         <div class="home"><a href="#"><img class="image-d" src="./img/live-news.png" alt="live-news"> <li>News</li></a></div>
+                        </ul>
+                    </div><!--nav-links-->
+                   
+                    <div class="kovid-date"><!--kovid date-->
+                        <span class="">Updated Sun May 22 2020</span>
+                    </div><!--kovid date-->
+                </div><!--home-content-->
+            </div>  <!--container-->
+        </div>  <!--home-nav-->
+    </header> <!--covid19 header-->
+    <div class="kovid-banner"><!--kovid banner-->
+        <div class="container"><!--container-->
+            <h2>Covid-19 Tracker</h2>
+           <div class="kovid-container"><!--kovid container-->
+            <section class="contentA"><!--content A-->
+                <div class="column"><!--coumn-->
+                    <p>Total Cases</p>
+                    <div>
+                        <p class="new-count-1">+000000</p>
+                        <p class="total-case">0</p>
+                    </div>
+                </div><!--column-->
+                <div class="column"><!--colum-->
+                    <p>Active Cases</p>
+                    <div>
+                        <p class="new-count-2">+000000</p>
+                        <p class="active-case">0</p>
+                    </div>
+                </div><!--column-->
+                <div class="column"><!--column-->
+                    <p>Total Recoveries</p>
+                    <div>
+                        <p class="new-count-3">+000000</p>
+                        <p class="total-recovered">00000</p>
+                    </div>
+                </div><!--column-->
+                <div class="column"><!--column-->
+                    <p>Total Death</p>
+                    <div>
+                        <p class="new-count-4">+000000</p>
+                        <p class="total-death">0</p>
+                    </div>
+                </div><!--column-->
+                <h3>Top 10 Countries</h3>
+                    <div class="list-all">
+                        <div class="column2">
+                            <div class="kovid-img-name">
+                                <img src="" alt="">
+                             <span>USA</span> 
+                            </div>
+                            <p>08940000</p>
+                        </div>
+                      <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>Italy</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+                    <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>United Kingdom</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+                    <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>Spain</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+                    <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>Albania</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+                    <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>Andorra</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+                    <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>Austria</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+                    <div class="column2">
+                       <div class="kovid-img-name">
+                           <img src="" alt="">
+                           <span>Canada</span> 
+                       </div>
+                       <p>08940000</p>
+                    </div>
+            </section><!--content A-->
+            <section class="contentB"><!--content B-->
+             <div class="section-content"><!--section-content-->
+                <div class="sectionA"><!--sectionA-->
+                    <select id="kovid-countries">
+                        <option value="All" id="all">All</option>
+                        <option value="afganistan">Afganistan</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Congo">Congo</option> 
+                    </select>
+                    <div class="cn">
+                         <div class="kovid-result">
+                            <div class="kovid-total-cases">
+                                <img src="" alt="" class="kol">
+                                <p>Total Cases</p>
+                                <p><span>+00000000</span></p>
+                            </div>
+                            <div class="kovid-total-deaths">
+                                <img src="" alt="" class="kol">
+                                <p>Total Deaths</p>
+                                <p><span>+00000000</span></p>
+                            </div>
+                        </div>
+                        <div class="kovid-result">
+                            <div class="kovid-total-recoveries">
+                                <img src="" alt="" class="kol">
+                                <p>Total Recoveries</p>
+                                <p><span>+00000000</span></p>
+                            </div>
+                            <div class="kovid-active-cases">
+                                <img src="" alt="" class="kol">
+                                <p>Active Cases</p>
+                                <p><span>+00000000</span></p>
+                            </div>
+                        </div>
+                        <div class="kovid-result">
+                            <div class="kovid-new-cases">
+                                <img src="" alt="" class="kol">
+                                <p>New Cases</p>
+                                <p><span>+00000000</span></p>
+                            </div>
+                            <div class="kovid-new-deaths">
+                                <img src="" alt="" class="kol">
+                                <p>New Deaths</p>
+                                <p><span>+0000000</span></p>
+                            </div>
+                        </div>
+                    </div><!--cn-->
+                </div><!--sectionA-->
+                <div class="sectionB"><!--sectionB-->
+                  
+                </div><!--section B-->
+             </div><!--section-content-->
+            <div class="kovid-sheets"><!--kovid sheets-->
+                <div class="sheets-container"><!--sheets container-->
+                    <div class="sheets-contentA"><!--sheets contentA-->
+                        <p>Total Cases</p>
+                        <p><span class="col-1">000000</span></p>
+                    </div><!--sheets contAntA-->
+                    <div class="sheets-contentA"><!--sheets contentA-->
+                        <p>Active Cases</p>
+                        <p><span class="col-2">000000</span></p>
+                    </div><!--sheets contAntA-->
+                </div><!--sheets container-->
+                <div class="sheets-container"><!--sheets container-->
+                    <div class="sheets-contentA"><!--sheets contentA-->
+                        <p>Recoveries</p>
+                        <p><span class="col-3">000000</span></p>
+                    </div><!--sheets contAntA-->
+                    <div class="sheets-contentA"><!--sheets contentA-->
+                        <p>Total Deaths</p>
+                        <p><span class="col-4">000000</span></p>
+                    </div><!--sheets contAntA-->
+                </div><!--sheets container-->
+                <div class="sheets-container"><!--sheets container-->
+                    <div class="sheets-contentA"><!--sheets contentA-->
+                        <p>News Cases</p>
+                        <p><span class="col-5">000000</span></p>
+                    </div><!--sheets contAntA-->
+                    <div class="sheets-contentA"><!--sheets contentA-->
+                        <p>New Deaths</p>
+                        <p><span class="col-6">000000</span></p>
+                    </div><!--sheets contAntA-->
+                </div><!--sheets container-->
+            </div><!--kovid sheets-->
+            </section><!--content B-->
+           
+        </div><!--kovid container-->
+        </div><!--container-->
+    </div><!--kovid banner-->
+   
+    <footer><!--footer-->
+      <div class="container"><!--container-->
+        <div class="foot-page">
+          <p>copywrite2021</p>
+          <p>Terms and condition</p>
+          <p>privacy policy</p>
+          <p>designed by ezechifrank</p>
+        </div>
+      
+      </div><!--container-->
+     
+    </footer><!--footer-->
+    <script src="js/Top-ten.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/average_countries.js"></script>
+</body>
+</html>

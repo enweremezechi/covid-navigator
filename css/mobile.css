@@ -1,0 +1,82 @@
+/************mobile view***************************/
+
+/* body */
+body {
+    overflow-x: hidden;
+}
+
+
+/* logo */
+#logo {
+    margin: 0; 
+    padding: 0; 
+}
+
+.home-content {
+  align-content: center;
+}
+
+/* container */
+.container {
+    height: 100%;
+}
+
+/* burger */
+
+.burger{
+    display: block !important;
+    
+}
+
+/* nav-links */
+.nav-links{
+    display: none!important;
+}
+
+/* kovid-sheets */
+.kovid-sheets{
+ flex-direction: column;
+ width: 100%;
+
+}
+
+.sheets-container{
+    justify-content: center;
+}
+
+/* kovid container */
+
+.kovid-container {
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+/* kovid-banner */
+.kovid-banner{
+    align-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.contentB{
+    margin-top: 5px;
+    position: relative;
+}
+
+.kovid-sheets{
+    border: none !important;
+}
+
+.sheets-contentA {
+  border: 1px solid rgb(98, 163, 118);
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.sectionA select {
+    margin-top: 10px;
+}
+
